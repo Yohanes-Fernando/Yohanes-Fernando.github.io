@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yohanes Fernando Setiyo - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="logo.png" alt="Yohanes Logo" class="logo">
+            <nav>
+                <a href="#" onclick="showSection('home')">Home</a>
+                <a href="#" onclick="showSection('about')">About</a>
+                <a href="#" onclick="showSection('projects')">Projects</a>
+                <a href="#" onclick="showSection('contact')">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <div id="home" class="section active">
+        <div class="hero">
+            <h1>Yohanes Fernando Setiyo</h1>
+            <p class="subtitle">BINUS University Student • Computer Science</p>
+            <p>Currently learning 3D animation as a side hobby</p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="section">
+        <h2>About Me</h2>
+        <p>I'm a Computer Science student at BINUS University with a strong passion for technology and creativity. I'm fluent in multiple languages and currently exploring 3D animation in my free time.</p>
+        
+        <h3>Languages</h3>
+        <ul>
+            <li><strong>Indonesian</strong>: Native</li>
+            <li><strong>English</strong>: Fluent</li>
+            <li><strong>Japanese</strong>:
+                <ul>
+                    <li>Speaking/Listening: Intermediate</li>
+                    <li>Reading: Beginner</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Stock Management System</h3>
+            <p><strong>Status:</strong> Work in Progress (WIP)</p>
+            <p>A system to help manage inventory and stock levels efficiently.</p>
+        </div>
+        
+        <!-- Add more project cards here later -->
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+        <h2>Connect with Me</h2>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/yohanesfernando/" target="_blank">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" alt="LinkedIn" width="32">
+                LinkedIn
+            </a>
+            <a href="https://github.com/Yohanes-Fernando" target="_blank">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" alt="GitHub" width="32">
+                GitHub
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Yohanes Fernando Setiyo. Built with ❤️ using HTML, CSS & JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
